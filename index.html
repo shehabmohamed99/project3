@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Platform</title>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Quiz Platform</h1>
+        <!-- Authentication Section -->
+        <div id="auth">
+            <input type="text" id="username" placeholder="Username" />
+            <input type="password" id="password" placeholder="Password" />
+            <button id="register">Register</button>
+            <button id="login">Login</button>
+        </div>
+
+        <!-- Quiz Section -->
+        <div id="quiz" style="display: none;">
+            <h2>Quiz</h2>
+            <div id="questions"></div>
+            <button id="submit">Submit</button>
+        </div>
+
+        <!-- Leaderboard Section -->
+        <div id="leaderboard" style="display: none;">
+            <h2>Leaderboard</h2>
+            <ul id="leaderboardList"></ul>
+        </div>
+    </div>
+</body>
+</html>
